@@ -1,0 +1,37 @@
+{
+    "name": "clarkwinkelmann/post-license",
+    "description": "Choose license of posts",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ClarkWinkelmann\\PostLicense\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Post License",
+            "icon": {
+                "name": "",
+                "backgroundColor": "",
+                "color": ""
+            }
+        },
+        "flagrow": {
+            "discuss": ""
+        }
+    }
+}
